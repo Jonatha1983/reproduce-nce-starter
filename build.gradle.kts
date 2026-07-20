@@ -33,7 +33,7 @@ dependencies {
     // repositories — the vanilla build works fine for the test JVM.)
     "starterTestRuntimeOnly"("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2")
 
-    "starterTestImplementation"(platform("org.junit:junit-bom:5.11.4"))
+    "starterTestImplementation"(platform("org.junit:junit-bom:6.1.2"))
     "starterTestImplementation"("org.junit.jupiter:junit-jupiter")
     "starterTestRuntimeOnly"("org.junit.platform:junit-platform-launcher")
 
