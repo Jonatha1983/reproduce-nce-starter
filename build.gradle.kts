@@ -31,7 +31,7 @@ dependencies {
     "starterTestImplementation"(kotlin("stdlib"))
     // (The framework declares 1.10.2-intellij-1, which is not resolvable from public
     // repositories — the vanilla build works fine for the test JVM.)
-    "starterTestRuntimeOnly"("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2")
+    "starterTestRuntimeOnly"("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.11.0")
 
     "starterTestImplementation"(platform("org.junit:junit-bom:5.11.4"))
     "starterTestImplementation"("org.junit.jupiter:junit-jupiter")
